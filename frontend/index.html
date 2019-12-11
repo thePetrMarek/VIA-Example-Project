@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://api.mapy.cz/loader.js"></script>
+    <script>Loader.load()</script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>Movie Location Map</h1>
+    <p>Find the place in which movies are made and rate them!</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action flex-column align-items-start"
+                   id="element_one">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1" id="movie_name_one">Frozen</h5>
+                        <form id="form_one">
+                            <select id="rating_one">
+                                <option value="1">1 star</option>
+                                <option value="2">2 stars</option>
+                                <option value="3">3 stars</option>
+                                <option value="4">4 stars</option>
+                                <option value="5" selected="selected">5 stars</option>
+                            </select>
+                        </form>
+                    </div>
+                    <p class="mb-1" id="studio_one">Walt Disney Animation Studios</p>
+                    <small id="headquarter_one">US</small>
+                </a>
+
+                <a class="list-group-item list-group-item-action flex-column align-items-start"
+                   id="element_two">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1" id="movie_name_two">Frozen</h5>
+                        <form id="form_two">
+                            <select id="rating_two">
+                                <option value="1">1 star</option>
+                                <option value="2">2 stars</option>
+                                <option value="3">3 stars</option>
+                                <option value="4">4 stars</option>
+                                <option value="5" selected="selected">5 stars</option>
+                            </select>
+                        </form>
+                    </div>
+                    <p class="mb-1" id="studio_two">Walt Disney Animation Studios</p>
+                    <small id="headquarter_two">US</small>
+                </a>
+
+                <a class="list-group-item list-group-item-action flex-column align-items-start"
+                   id="element_three">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1" id="movie_name_three">Frozen</h5>
+                        <form id="form_three">
+                            <select id="rating_three">
+                                <option value="1">1 star</option>
+                                <option value="2">2 stars</option>
+                                <option value="3">3 stars</option>
+                                <option value="4">4 stars</option>
+                                <option value="5" selected="selected">5 stars</option>
+                            </select>
+                        </form>
+                    </div>
+                    <p class="mb-1" id="studio_three">Walt Disney Animation Studios</p>
+                    <small id="headquarter_three">US</small>
+                </a>
+
+                <a class="list-group-item list-group-item-action flex-column align-items-start"
+                   id="element_four">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1" id="movie_name_four">Frozen</h5>
+                        <form id="form_four">
+                            <select id="rating_four">
+                                <option value="1">1 star</option>
+                                <option value="2">2 stars</option>
+                                <option value="3">3 stars</option>
+                                <option value="4">4 stars</option>
+                                <option value="5" selected="selected">5 stars</option>
+                            </select>
+                        </form>
+                    </div>
+                    <p class="mb-1" id="studio_four">Walt Disney Animation Studios</p>
+                    <small id="headquarter_four">US</small>
+                </a>
+
+                <a class="list-group-item list-group-item-action flex-column align-items-start"
+                   id="element_five">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1" id="movie_name_five">Frozen</h5>
+                        <form id="form_five">
+                            <select id="rating_five">
+                                <option value="1">1 star</option>
+                                <option value="2">2 stars</option>
+                                <option value="3">3 stars</option>
+                                <option value="4">4 stars</option>
+                                <option value="5" selected="selected">5 stars</option>
+                            </select>
+                        </form>
+                    </div>
+                    <p class="mb-1" id="studio_five">Walt Disney Animation Studios</p>
+                    <small id="headquarter_five">US</small>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="mapa"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
